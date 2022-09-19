@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <button onclick="batden()">Bat den</button>
+    <img id="my" src="./img/pic_bulboff.gif" alt="">
+    <button onclick="tatden()">Tat den</button> -->
+
+    <!-- <button onclick="document.getElementById('myImage').src='./img/pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="./img/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='./img/pic_bulboff.gif'">Turn off the light</button> -->
+
+    <!-- vd1 -->
+    <div class="form-group">
+        <h4>Vd2:Tinh Tong luong</h4>
+        <div class="form-group">
+            <p>Tien luong 1h</p>
+            <input type="text" id="tienLuong1h" class="form-control w-25">
+            <br>
+        </div>
+        <div class="form-group">
+            <p>So gio lam</p>
+            <input type="text" id="soGioLam" class="form-control w-25">
+            <br>
+        </div>
+        <button onclick="Tinhluong()">Tinh tien</button>
+        <div>
+            Ketqua: <span id="Tongluong"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <p>Nhap gia tri va in ra gia tri</p>
+        <input type="text " id="giatriNhap">
+        <button onclick="Inra()" class="btn btn-dark">In gia tri</button>
+        <div>
+            Ketqua : <span id="giatriIn"></span>
+        </div>
+    </div>
+
+    <hr>
+    <h4>Vd: Xay dung form</h4>
+    <div class="card w-50">
+        <div class="card-header bg-dark text-white">
+            <h3>Dang Nhap</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Tai khoan</p>
+                <input type="text" class="form-control" id="taiKhoan">
+            </div>
+            <div class="form-group">
+                <p>Mat Khau</p>
+                <input type="password" class="form-control" id="matKhau">
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <button id="btnDangNhap" onclick="" class="btn btn-success ">Dang Nhap</button>
+        </div>
+        <div class="mt-2 text-center">
+            <br>
+            <br>
+            <span id="ketQua">
+                Ket qua dang nhap
+            </span>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
