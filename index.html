@@ -22,24 +22,29 @@
     <button onclick="document.getElementById('myImage').src='./img/pic_bulboff.gif'">Turn off the light</button> -->
 
     <!-- vd1 -->
-    <div class="form-group">
-        <h4>Vd2:Tinh Tong luong</h4>
-        <div class="form-group">
-            <p>Tien luong 1h</p>
-            <input type="text" id="tienLuong1h" class="form-control w-25">
-            <br>
-        </div>
-        <div class="form-group">
-            <p>So gio lam</p>
-            <input type="text" id="soGioLam" class="form-control w-25">
-            <br>
-        </div>
-        <button onclick="Tinhluong()">Tinh tien</button>
+    <div class="d-flex justify-content-center">
         <div>
-            Ketqua: <span id="Tongluong"></span>
+            <div class="form-group ">
+                <h4>Vd2:Tinh Tong luong</h4>
+                <div class="form-group">
+                    <p>Tien luong 1h</p>
+                    <input type="text" id="tienLuong1h" class="form-control w-80">
+                    <br>
+                </div>
+                <div class="form-group">
+                    <p>So gio lam</p>
+                    <input type="text" id="soGioLam" class="form-control w-80">
+                    <br>
+                </div>
+                <button id="btnTinhTienLuong" class="btn btn-success">Tinh tien</button>
+                <div>
+                    Ketqua: <span id="tongLuong"></span>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- vd2: In ra gia tri vua nhap vao -->
     <div class="form-group">
         <p>Nhap gia tri va in ra gia tri</p>
         <input type="text " id="giatriNhap">
@@ -49,6 +54,7 @@
         </div>
     </div>
 
+    <!-- Xay dung form dang nhap -->
     <hr>
     <h4>Vd: Xay dung form</h4>
     <div class="card w-50">

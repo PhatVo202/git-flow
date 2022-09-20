@@ -1,15 +1,12 @@
 
-
-
-
-// function Tinhluong(){
-//     var tienLuong = document.getElementById('tienLuong1h').value;
-//     var gioLam = document.getElementById('soGioLam').value;
-    
-//     var Tongluong = 0;
-//     Tongluong = tienLuong * gioLam;
-//     document.getElementById('Tongluong').innerHTML = Tongluong.toLocaleString();
-// }
+var btnTinhTienLuong = document.getElementById('btnTinhTienLuong');
+btnTinhTienLuong.onclick = function() {
+    var tienLuong1h = document.getElementById('tienLuong1h').value;
+    var soGioLam = document.getElementById('soGioLam').value;
+    var tongLuong = 0;
+    tongLuong = tienLuong1h * soGioLam;
+    document.getElementById('tongLuong').innerHTML = tongLuong;
+}
 
 function Inra(){
     var tagNhap = document.getElementById('giatriNhap').value;
