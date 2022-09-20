@@ -34,3 +34,16 @@ btnDangNhap.onclick = function(){
     ketQua.style.padding = '15px';
     ketQuan.style.margin = "15px";
 }
+
+function soTuoi(){
+    var tuoiNhap = document.getElementById('soTuoi').value; 
+    var thongbaoTuoi = '';
+    thongbaoTuoi = "Tuoi cua ban la: " + tuoiNhap;
+    var xuatKq = document.getElementById('ketQua');
+    xuatKq.innerHTML = thongbaoTuoi;
+    if(tuoiNhap >0){
+        return xuatKq.innerHTML; 
+    }else{
+        return  xuatKq.innerHTML = 'Lúc đó mày chưa đẻ ra nữa bắt t tính';
+    }
+}
