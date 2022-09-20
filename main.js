@@ -61,3 +61,13 @@ btnTinhTien.onclick = function(){
     tienTipTrenDauNguoi = (tongTienThanhToan * phanTramTip / 100) / soNguoiDcTip;
     document.getElementById('tienTipTrenDauNguoi').innerHTML = tienTipTrenDauNguoi + '$';
 }
+
+
+// Trung binh cong tong 3 ki so 
+var so = 592;
+var hangTram = Math.floor(so /100);
+var hangChuc = Math.floor(so % 100 / 10);
+var hangDonVi = Math.floor(so % 100 % 10);
+var tbc = hangTram + hangChuc + hangDonVi ;
+console.log(tbc);
+
