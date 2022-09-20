@@ -51,7 +51,7 @@
 
     <hr>
     <h4>Vd: Xay dung form</h4>
-    <!-- <div class="card w-50">
+    <div class="card w-50">
         <div class="card-header bg-dark text-white">
             <h3>Dang Nhap</h3>
         </div>
@@ -77,8 +77,9 @@
             <br>
             <br>
         </div>
-    </div> -->
+    </div>
 
+    <!-- Máy tính thông minh -->
     <div class="card w-50">
         <div class="card-header bg-dark text-white">
             <h3>Máy tính đến từ tương lai</h3>
@@ -100,6 +101,40 @@
             </span>
             <br>
             <br>
+        </div>
+    </div>
+
+    <hr>
+    <h3>Vd4: Tinh tien tip</h3>
+    <div class="d-flex justify-content-center">
+        <div class="card w-50 text-center text-white bg-dark">
+            <div class="card-header">Tinh tien tip</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Tong tien thanh toan</p>
+                    <input type="text" class="form-control w-40" id="tongTienThanhToan" placeholder="Tong tien">
+                </div>
+                <div class="form-group">
+                    <p>Ban muon tip bao nhieu</p>
+                    <select id="phanTramTip" class="form-control ">
+                        <option>Chon de tip</option>
+                        <option value="30">- 30%: Tuyet </option>
+                        <option value="20">- 20%: Tuyet </option>
+                        <option value="15">- 15%: Tuyet </option>
+                        <option value="10">- 10%: Tuyet </option>
+                        <option value="5">- 5%: Tuyet </option>
+                    </select>
+                    <p>Muon share bao nhieu nguoi</p>
+                    <input type="text" class="form-control w-40" placeholder="Nhap so nguoi" id="soNguoiDcTiep">
+                    <button id="btnTinhTien" class="btn btn-success text-white mt-4">Tinh nao</button>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>
+                    So tien tip/ Nguoi:
+                </span>
+                <span id="tienTipTrenDauNguoi" class="display-4"> $</span>
+            </div>
         </div>
     </div>
 

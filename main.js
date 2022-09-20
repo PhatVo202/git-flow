@@ -47,3 +47,17 @@ function soTuoi(){
         return  xuatKq.innerHTML = 'Lúc đó mày chưa đẻ ra nữa bắt t tính';
     }
 }
+
+
+var btnTinhTien = document.getElementById('btnTinhTien');
+btnTinhTien.onclick = function(){
+    var tongTienThanhToan = document.getElementById('tongTienThanhToan').value;
+    var phanTramTip = document.getElementById('phanTramTip').value;
+    var soNguoiDcTip = document.getElementById('soNguoiDcTiep').value;
+    console.log(tongTienThanhToan);
+    console.log(phanTramTip);
+    console.log(soNguoiDcTip);
+    var tienTipTrenDauNguoi = 0;
+    tienTipTrenDauNguoi = (tongTienThanhToan * phanTramTip / 100) / soNguoiDcTip;
+    document.getElementById('tienTipTrenDauNguoi').innerHTML = tienTipTrenDauNguoi + '$';
+}
